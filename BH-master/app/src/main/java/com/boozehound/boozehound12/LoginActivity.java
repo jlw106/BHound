@@ -173,6 +173,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                 String userID = loginResult.getAccessToken().getUserId();
                 Log.i("BoozeHound", userID);
                 database_manager.queryDatabaseForUser(userID);
+                backgroundWorker.execute("login", userID);
                 loadMainMenu();
             }
 
