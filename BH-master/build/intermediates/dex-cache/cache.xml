@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\Downloads\BH-master\BH-master\app\libs\GenAsync.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0f5e48bcb980aa260360949d8c5bc5b348359ee2">
+        <dex dex="C:\Users\Josh\Downloads\BH-master\BH-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\GenAsync.1.2_1a39527b894d1cca3e359611b2f8a1fefc7c4523\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\Downloads\BH-master\BH-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Josh\Downloads\BH-master\BH-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_2549fd6d2afb8319bd2dc6d0352133f840103f83\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\Downloads\BH-master\BH-master\app\libs\gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="C:\Users\Josh\Downloads\BH-master\BH-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.6.2_d4ae12dc892689786a3f76e6620d6ed07ef1e6e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\Downloads\BH-master\BH-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1fe53a4c76b0e265d6b786e4ed1a67792a123332">
+        <dex dex="C:\Users\Josh\Downloads\BH-master\BH-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_43ac37fce63d1aa460bbde3c2e70de50ece6a068\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Josh\Downloads\BH-master\BH-master\app\libs\KGJsonConverter.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cea743dc2e193922f7e7dc34858ef15b00afc6db">
+        <dex dex="C:\Users\Josh\Downloads\BH-master\BH-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\KGJsonConverter_f27580ecca7bb49a58f96643c1d24baa9d1d963a\classes.dex" />
+    </item>
+
+</items>
