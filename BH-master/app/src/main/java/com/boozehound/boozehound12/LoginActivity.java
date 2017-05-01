@@ -75,7 +75,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
 
     //Create Database instance in order to be able to query for users
     DatabaseManager database_manager = new DatabaseManager();
-
+    BackgroundWorker backgroundWorker = new BackgroundWorker(this);
     /**
      * Id to identity READ_CONTACTS permission request.
      */
@@ -207,8 +207,6 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
             public void onClick(View v) {
                 Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(SignInClient);
                 startActivityForResult(signInIntent, 9001);
-                Log.d("LoginActivity",userEmail);
-                //loadMainMenu();
             }
         });
 
@@ -511,7 +509,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
             GoogleSignInAccount acct = result.getSignInAccount();
             userEmail = acct.getEmail();
             userFullName = acct.getDisplayName();
-            Log.d("LoginActivity",userEmail);
+            backgroundWorker.execute("login", userEmail);
             loadMainMenu();
         }
     }
